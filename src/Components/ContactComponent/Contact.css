@@ -1,0 +1,133 @@
+#contact {
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  justify-content: center;
+  width: 100%;
+  border-bottom: solid 2px rgb(223, 200, 155);
+  box-shadow: 8px rgb(187, 184, 172);
+  text-align: center;
+  justify-content: center;
+}
+#contact h1 {
+  color: white;
+  font: "Kalam" "Open Sans", "Cedarville Cursive", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  padding: 75px;
+}
+
+#contact-adress {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin: 100px 300px;
+
+  border-radius: 30px;
+}
+.icon {
+  font: 40px "opensans-bold", sans-serif;
+}
+#contact-adress span {
+  color: white;
+}
+
+.contact-form {
+  position: relative;
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  max-width: 35%;
+  margin-left: 1000px;
+}
+
+.icons {
+  font-size: 40px;
+  position: relative;
+  padding: 10px;
+}
+
+.icon-link {
+  margin: 20px;
+}
+.icon-link:hover {
+  transform: scale(1.23);
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 90%;
+  max-width: 50rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: wheat;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+.btn {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
+#map {
+  width: auto;
+  padding-bottom: 30px;
+}
+#text h2 {
+  color: white;
+  font: "Kalam" "Open Sans", "Cedarville Cursive", sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  padding: 75px;
+}
+#text span {
+  font-size: 30px;
+}
+
+footer {
+  padding-top: 40px;
+  background-color: rgb(10, 9, 9);
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+footer a,
+footer a:visited {
+  color: #7e7171;
+}
+footer a:hover,
+footer a:focus {
+  color: #fff;
+}
+
+/* copyright */
+footer .copyright {
+  margin: 0;
+  padding: 0;
+  color: #7e7171;
+}
+footer .copyright span {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  line-height: 25px;
+}
+.ie footer .copyright span {
+  display: inline;
+}
+footer .copyright span:before {
+  content: "\2022";
+
+  padding: 0 15px;
+  color: #113132;
+}
+footer .copyright li:first-child:before {
+  display: none;
+}

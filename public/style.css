@@ -1,0 +1,29 @@
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* ------------------------------------------------------------------ */
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
+
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/*  1. Basic  style ------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+}
+
+body {
+  background: rgb(30, 30, 30);
+  font-family: "opensans-regular", sans-serif;
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}

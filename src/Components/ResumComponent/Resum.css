@@ -1,0 +1,106 @@
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+  background-image: url(../../images/into.jpg);
+  background-attachment: fixed;
+  background-size: cover !important;
+  width: 100vw;
+  height: 900px;
+  padding-top: 140px;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  -webkit-background-size: cover !important;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+.resume-nav {
+  max-width: 100%;
+  padding: 100px 100px 50px 100px;
+  margin: 0 300px;
+  border-radius: 10px;
+  border: 1px solid rgb(132, 117, 117);
+  background-color: rgb(18, 16, 16);
+}
+
+#resume .resume-nav h1 strong {
+  font-family: "Kalam" "Open Sans", "Cedarville Cursive", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 1.9px;
+}
+#resume .resume-nav h1 strong {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 8px;
+}
+#resume .resume-nav h3 {
+  font-family: "Kalam" "Open Sans", "Cedarville Cursive", sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+
+#resume .info {
+  font: 22px/20px "librebaskerville-italic", serif;
+  padding-top: 30px;
+  color: #8ca0ae;
+  margin-left: 30px;
+}
+
+#resume .resume-nav p {
+  font: 20px sans-serif;
+  padding-top: 10px;
+  color: #666f76;
+}
+#resume .date {
+  font: 15px/24px "opensans-regular", sans-serif;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+.row {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+}
+/* column widths */
+
+.row .three {
+  width: 25%;
+}
+
+.row .nine {
+  width: 75%;
+}
+
+.row .twelve {
+  width: 100%;
+}
+em {
+  font: 15px/30px "opensans-italic", sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.btn {
+  background-color: #0cdde4;
+  font-size: large;
+  padding-top: 10px;
+}
+.btn:hover {
+  background-color: #6a5c2b;
+}
+
+/* @media only screen and (max-width: 900px) { */
+/* .resume h1 { */
+/* font: 16px/24px "opensans-bold", sans-serif; */
+/* } */
+/* .resume .main-col { */
+/* padding-right: 5%; */
+/* } */
+/* } */
+/*  */
